@@ -11,3 +11,12 @@
  Text Domain:  tema-basico
 
 */
+
+.post {
+    background: #E9D7D9;
+}
+
+.category-design .titulo-post a{
+    text-decoration: none;
+    color: brown;
+}

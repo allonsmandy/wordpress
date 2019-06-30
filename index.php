@@ -6,6 +6,7 @@
     <!-- POSTS -->
     <?php while(have_posts()) : the_post();  ?> <!-- ver se tem posts ou não -->
         
+    <article <?php post_class('post'); ?>> <!-- função responsavel por classes css relacionadas ao conteúdo -->
         <h1 class="titulo-post">
             <a href="<?php the_permalink(); ?>"> <!-- link do post em sua single page -->
                 <?php the_title(); ?> <!-- pega o titulo do post -->
@@ -17,7 +18,9 @@
 
         <p class="post"><?php the_excerpt(); ?></p> <!-- faz um resumo do post com 55 palavras -->
         <span>Publicado pela linda autora: <?php the_author_posts_link(); ?></span> <!-- exibe o nome do autor do post com seu respectivo link -->
-        <?php endwhile; ?>
+    </article>
+
+    <?php endwhile; ?>
     <!-- FIM DO LOOP DE POSTS -->
 
 <?php get_footer(); ?> <!-- pega o footer.php -->
