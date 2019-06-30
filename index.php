@@ -8,6 +8,8 @@
     <title>Tema básico</title>
 </head>
 <body>
-    <h1>Hello World</h1>
+
+    <h1><?php bloginfo('name'); ?></h1>     <!-- mostra o nome do blog dinamicamente -->
+    <strong><?php bloginfo('description'); ?></strong>     <!-- mostra a descrição do blog -->
 </body>
 </html>
