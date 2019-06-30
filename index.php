@@ -6,7 +6,12 @@
     <!-- POSTS -->
     <?php while(have_posts()) : the_post();  ?> <!-- ver se tem posts ou não -->
         
-        <h1 class="titulo-post"><?php the_title(); ?></h1> <!-- pega o titulo do post -->
+        <h1 class="titulo-post">
+            <a href="<?php the_permalink(); ?>"> <!-- link do post em sua single page -->
+                <?php the_title(); ?> <!-- pega o titulo do post -->
+            </a>
+        </h1>
+
         <p class="post"><?php the_content("Continue lendo, baby..."); ?></p> <!-- pega o conteudo do post -->
         
         <?php endwhile; ?>
