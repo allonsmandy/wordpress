@@ -12,7 +12,7 @@
             </a>
         </h1>
 
-        <p class="post"><?php the_content("Continue lendo, baby..."); ?></p> <!-- pega o conteudo do post -->
+        <p class="post"><?php the_excerpt(); ?></p> <!-- faz um resumo do post com 55 palavras -->
         
         <?php endwhile; ?>
     <!-- FIM DO LOOP DE POSTS -->
