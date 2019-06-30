@@ -1,11 +1,12 @@
 <?php get_header(); ?>
 
-    <h2>Hey baby, tu estás na categoria:
-        <?php single_cat_title(); ?> 
+    <h2 class="title-category">Hey baby, tu estás na categoria:
+        <?php single_cat_title(); ?> <!-- titulo da categoria -->
     </h2>
-    <span><?php echo category_description(); ?></span>
+    <span><?php echo category_description(); ?></span> <!-- descrição da categoria -->
 
        <!-- POSTS -->
+       
        <?php while(have_posts()) : the_post();  ?> <!-- ver se tem posts ou não -->
         
         <h1 class="titulo-post">
