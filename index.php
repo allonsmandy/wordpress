@@ -16,7 +16,7 @@
         <span><?php the_time('d/m/Y - h:i:s'); ?></span> <!-- exibe a data e hora do post -->
 
         <p class="post"><?php the_excerpt(); ?></p> <!-- faz um resumo do post com 55 palavras -->
-        
+        <span>Publicado pela linda autora: <?php the_author_posts_link(); ?></span> <!-- exibe o nome do autor do post com seu respectivo link -->
         <?php endwhile; ?>
     <!-- FIM DO LOOP DE POSTS -->
 
