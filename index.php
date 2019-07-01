@@ -13,4 +13,6 @@
      endwhile; ?>
     <!-- FIM DO LOOP DE POSTS -->
 
+    <?php get_sidebar(); ?> <!-- chama a sidebar -->
+
 <?php get_footer(); ?> <!-- pega o footer.php -->

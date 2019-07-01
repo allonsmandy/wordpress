@@ -22,5 +22,6 @@
         endwhile; ?>
     <!-- FIM DO LOOP DE POSTS -->
 
+    <?php get_sidebar('category') ?> <!-- chama a sidebar com o id category -->
 
 <?php get_footer(); ?>
