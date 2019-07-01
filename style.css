@@ -12,6 +12,10 @@
 
 */
 
+.wp-post-image { /* classe que é adicionadaa na img destacada :) */
+    border: 2px solid black;
+}
+
 .post {
     background: #E9D7D9;
 }

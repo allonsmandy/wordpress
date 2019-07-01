@@ -1,4 +1,7 @@
 <article <?php post_class('post'); ?>>
+
+    <?php the_post_thumbnail('thumb-post'); ?> <!-- carega o thumbnail relacionado ao post -->
+
     <!-- função responsavel por classes css relacionadas ao conteúdo -->
     <h1 class="titulo-post">
         <a href="<?php the_permalink(); ?>">
