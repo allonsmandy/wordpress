@@ -3,6 +3,8 @@
     <h1><?php bloginfo('name'); ?></h1>     <!-- mostra o nome do blog dinamicamente -->
     <strong><?php bloginfo('description'); ?></strong>     <!-- mostra a descrição do blog -->
 
+   <?php get_search_form(); ?>
+
     <!-- POSTS -->
     <?php while(have_posts()) : the_post();   // ver se tem posts ou não 
         
