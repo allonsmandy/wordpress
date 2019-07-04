@@ -16,6 +16,11 @@
             'name' => 'Sidebar arquivo', 
             'id' => 'sidebar-archive'
             )
-        );     
+        );
+
+    // backgrounds dinamicos
+
+    $args = array ('default-color' => '#ccc'); //seta uma cor default do background
+    add_theme_support('custom-background'); //adiciona suporte para background dinamico
 
 ?>
