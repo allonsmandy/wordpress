@@ -9,3 +9,8 @@
     <?php wp_head(); ?>
 </head>
 <body <?php body_class(); ?>> <!--  -->
+
+<header>
+    <img src="<?php header_image(); ?>"> <!-- pega o endereço da imagem do header que foi adicionado dinamicamente -->
+    <h1><?php bloginfo('description'); ?></h1> <!-- descrição do site -->
+</header>

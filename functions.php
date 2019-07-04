@@ -23,4 +23,13 @@
     $args = array ('default-color' => '#ccc'); //seta uma cor default do background
     add_theme_support('custom-background'); //adiciona suporte para background dinamico
 
+    // header dinamico
+
+    $default = array (
+        'height' => 400,
+        'width' => 1600,
+        'header-text' => true
+    );
+
+    add_theme_support('custom-header', $default);
 ?>
