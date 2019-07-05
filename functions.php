@@ -26,6 +26,7 @@
     // header dinamico
 
     $default = array (
+        'default-image' => get_template_directory_uri() . '/img/banner-design.png', //imagem padrao para o header
         'height' => 400,
         'width' => 1600,
         'header-text' => true
