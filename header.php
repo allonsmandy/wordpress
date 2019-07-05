@@ -27,4 +27,11 @@
         
         <?php endif; ?>
 
+        <!-- video customizado no header -->
+        <?php if(has_header_video()): ?>
+            <video playsinline autoplay muted loop>
+                <source src="<?php the_header_video_url() ?>" type="video/mp4"></source> <!-- pega a url do video cadastrado -->
+            </video>
+        <?php endif; ?>
+
 </header>
