@@ -11,6 +11,14 @@
 <body <?php body_class(); ?>> <!--  -->
 
 <header>
+ <!-- se existir uma logo customizada então vai exibir ela -->
+    <?php 
+        if(has_custom_logo()):
+        the_custom_logo(); 
+        else: ?>
+<!-- se nao existe a logo, exibe o titulo do site-->
+    <h1><?php bloginfo('name'); ?></h1>
+    <?php endif; ?> <!-- fim loop da logo customizada -->
 
         <?php if(has_header_image() && is_home()) : ?>  <!-- exibe se tiver uma imagem no header e se estiver na home do site -->
 

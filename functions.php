@@ -33,4 +33,11 @@
     );
 
     add_theme_support('custom-header', $default);
+
+    // logo customizada
+    $args_logo = array(
+        'width' => '150',
+        'height' => '150'
+    );
+    add_theme_support('custom-logo', $args_logo);
 ?>
