@@ -20,6 +20,11 @@
     <h1><?php bloginfo('name'); ?></h1>
     <?php endif; ?> <!-- fim loop da logo customizada -->
 
+    <!-- exibe o menu dinamico  -->
+        <?php wp_nav_menu(array(
+            'theme_location' => 'main'
+        )); ?>
+
         <?php if(has_header_image() && is_home()) : ?>  <!-- exibe se tiver uma imagem no header e se estiver na home do site -->
 
             <img src="<?php header_image(); ?>"> <!-- pega o endereço da imagem do header que foi adicionado dinamicamente -->

@@ -41,4 +41,8 @@
         'height' => '150'
     );
     add_theme_support('custom-logo', $args_logo);
+
+    //menu dinamico
+    register_nav_menu('main', 'Menu Principal'); //registra um menu
+    register_nav_menu('footer', 'Menu do Footer');
 ?>
