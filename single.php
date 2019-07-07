@@ -7,6 +7,8 @@
 
         <a href="<?php bloginfo('url'); ?>">Voltar para a home </a>
         
+        <?php get_template_part('templates/navigation', 'single') ?> <!-- navegação em uma pagina single -->
+
     <?php endwhile; ?>
 
 <?php get_footer(); ?>
