@@ -28,3 +28,9 @@
 body.category-sem-categoria .title-category {
     background: #cccccc;
 }
+
+nav.paginacao{
+    display: block;
+    padding: 20px;
+    background: #E9D7D9;
+}

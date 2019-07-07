@@ -15,4 +15,8 @@
 
     <?php get_sidebar(); ?> <!-- chama a sidebar -->
 
+    <nav class="paginacao">
+        <?php posts_nav_link('-'); ?> <!-- paginação -->
+    </nav>
+
 <?php get_footer(); ?> <!-- pega o footer.php -->
