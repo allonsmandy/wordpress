@@ -23,5 +23,6 @@
     <!-- FIM DO LOOP DE POSTS -->
 
     <?php get_sidebar('category') ?> <!-- chama a sidebar com o id category -->
+    <?php get_template_part('templates/navigation'); ?> <!-- inclui a navegação do template -->
 
 <?php get_footer(); ?>
