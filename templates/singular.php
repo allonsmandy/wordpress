@@ -25,4 +25,16 @@ if(get_field('post_level') && has_category('Desenvolvimento')): ?>
 <?php endif; 
     endif; ?>
 
+<!-- posts relacionados -->
+<h3>Post Relacionado</h3>
+<?php 
+    $linkRelacionado = get_field('post_relacionado');
+?>
+
+<a href="<?php echo $linkRelacionado['url'] ?>" 
+    target="<?php echo $linkRelacionado['target'] ?>">
+    <?php echo $linkRelacionado['title']; ?>
+</a>
+<br>
+
 <a href="<?php bloginfo('url'); ?>">Voltar para a home </a>
