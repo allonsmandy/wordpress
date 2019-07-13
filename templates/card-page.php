@@ -3,13 +3,21 @@
 
 
 <!-- CARREGANDO INFORMAÇÕES DO OBJETO POST -->
-<?php
-    $post = get_field('extras');
 
-    setup_postdata($post);
-    echo '<h3>' . get_the_title() . '</h3>';
-    echo get_the_content();
-    wp_reset_postdata();
+<?php 
+    $post = get_field('extras');
+    if($post):
 ?>
+
+<h2>Saiba mais</h2>
+<details>
+    <?php
+        setup_postdata($post); ?>
+        <summary> <?php the_title(); ?> </summary>
+        <p> <?php the_content();?> </p>
+
+        <?php wp_reset_postdata();
+        endif; ?>
+</details>
 
 <a href="<?php bloginfo('url'); ?>">Voltar para a home </a>

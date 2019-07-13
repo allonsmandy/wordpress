@@ -34,3 +34,14 @@ nav.paginacao{
     padding: 20px;
     background: #E9D7D9;
 }
+
+summary {
+    cursor: pointer;
+    outline: none;
+    padding: 1em;
+}
+
+summary:hover {
+    background: tomato;
+    color: white;
+}
