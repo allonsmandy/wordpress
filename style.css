@@ -45,3 +45,12 @@ summary:hover {
     background: tomato;
     color: white;
 }
+
+.autores {
+    background: wheat;
+}
+
+.autores span {
+    font-size: 3em;
+    border-bottom: 1px solid black;
+}

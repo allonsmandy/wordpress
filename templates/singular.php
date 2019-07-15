@@ -30,4 +30,9 @@ if(get_field('post_level') && has_category('Desenvolvimento')): ?>
     get_template_part('templates/cards', 'mini-relacionados');
 ?>
 
+<!-- autores -->
+<?php
+    get_template_part('templates/card', 'autores');
+?>
+
 <a href="<?php bloginfo('url'); ?>">Voltar para a home </a>
