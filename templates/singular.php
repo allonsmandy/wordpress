@@ -27,9 +27,7 @@ if(get_field('post_level') && has_category('Desenvolvimento')): ?>
 
 <!-- relacionados -->
 <?php 
-    if(get_field('exibir_card')) {
-        get_template_part('templates/card', 'relacionados');
-    }
+    get_template_part('templates/cards', 'mini-relacionados');
 ?>
 
 <a href="<?php bloginfo('url'); ?>">Voltar para a home </a>

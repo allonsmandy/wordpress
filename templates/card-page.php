@@ -5,11 +5,12 @@
 <!-- CARREGANDO INFORMAÇÕES DO OBJETO POST -->
 
 <?php 
-    $post = get_field('extras');
-    if($post):
+    $extras = get_field('extras');
+    if($extras):
 ?>
 
 <h2>Saiba mais</h2>
+<?php foreach($extras as $post): ?>
 <details>
     <?php
         setup_postdata($post); ?>
@@ -17,7 +18,9 @@
         <p> <?php the_content();?> </p>
 
         <?php wp_reset_postdata();
-        endif; ?>
+        ?>
 </details>
+<?php endforeach;
+        endif; ?>
 
 <a href="<?php bloginfo('url'); ?>">Voltar para a home </a>

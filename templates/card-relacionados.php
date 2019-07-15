@@ -1,8 +1,8 @@
 <!-- POSTS RELACIONADOS -->
-<?php if(get_field('post_relacionado')) : ?> <!-- só exibe se existir post_relacionado -->
+<?php if(get_field('posts_relacionados')) : ?> <!-- só exibe se existir post_relacionado -->
     <h3>Post Relacionado</h3>
     <?php 
-        $linkRelacionado = get_field('post_relacionado');
+        $linkRelacionado = get_field('posts_relacionados');
     ?>
 
     <a href="<?php echo $linkRelacionado['url'] ?>" 
