@@ -1,12 +1,12 @@
 
-# Estudos de wordpress :3
-- Aqui neste repositório você encontrará códigos bem enxutos para que consigas utilizar as funções do wordpress na hora em que for criar um tema filho ou utilizar como cms para seu site estático.
-- Não coloquei nenhum css mais elaborado, o css que possui é apenas para testes de codigos quando foi utilizado algumas condicionais, etc. Este tema foi feito para que tenha o foco no wordpress em si ^^
+## Tema básico para wordpress :3
+> - Aqui neste repositório você encontrará códigos bem _enxutos_ para que consigas utilizar as funções do wordpress na hora em que for criar um tema filho ou utilizar como CMS para seu site estático.
+> - __Não coloquei nenhum css mais elaborado__, o css que possui é apenas para testes de codigos quando foi utilizado algumas condicionais, etc. Este tema foi feito para que tenha o foco no wordpress em si ^^
 
-### !important
-- Tentei deixar os commits o mais organizado possivel, eles estão bem separadinhos de acordo com as funções especificas na qual eu estava trabalhando no momento, em alguns até deixei comentários para auxiliar! :)
+## !important
+- Tentei deixar os commits o mais organizado possivel, eles estão bem separadinhos de acordo com as funções especificas na qual eu estava trabalhando no momento, em alguns até deixei comentários para auxiliar! :) Dei uma organizadinha aqui, vamos construir juntos? :3
 
-**Iniciando o desenvolvimento do tema :3**
+# **Iniciando o desenvolvimento do tema :3**
 - [x] [Estilo inicial do tema](https://github.com/allonsmandy/wordpress/commit/619ce0d263ae5c6a2e070c046ee4321abf2cf1e6)
 - [x] [Trabalhando com bloginfo](https://github.com/allonsmandy/wordpress/commit/e109c620e0767c68cf23bbd0889c72b38d276a7e)
 - [x] [Alteração do caminho do css com bloginfo e uso do post_class](https://github.com/allonsmandy/wordpress/commit/bad4d9009ffc6e6aaf02f5b126e6d2279743ebf7)
@@ -47,3 +47,7 @@
 - [x] [Posts relacionados com o custom field de Relaçao](https://github.com/allonsmandy/wordpress/commit/81fb7185d6466ee16c3fad5da2abf80727fb2f96)
 - [x] [Cadastrando mais de um autor no post](https://github.com/allonsmandy/wordpress/commit/a842408a3b370cc2abf727b4e27120f855620bd0)
 - [x] [Trabalhando com a página de contato](https://github.com/allonsmandy/wordpress/commit/3abab0f21605f7ea409b2eea45cc8853c7577718)
+
+## Dúvidas ou contribuições
+- Caso tenha alguma dúvida, é só abrir uma issue!
+- Para contribuir é simples, dê fork no projetinho, faça as alterações e mande um pull request :3
