@@ -7,4 +7,4 @@
 - Tentei deixar os commits o mais organizado possivel, eles estão bem separadinhos de acordo com as funções especificas na qual eu estava trabalhando no momento, em alguns até deixei comentários para auxiliar! :)
 
 **BÁSICO - Iniciando o tema...**
-- [x] [Estilo inicial do tema]([https://github.com/allonsmandy/wordpress/commit/619ce0d263ae5c6a2e070c046ee4321abf2cf1e6](https://github.com/allonsmandy/wordpress/commit/619ce0d263ae5c6a2e070c046ee4321abf2cf1e6))
+- [x] [Estilo inicial do tema](https://github.com/allonsmandy/wordpress/commit/619ce0d263ae5c6a2e070c046ee4321abf2cf1e6)
